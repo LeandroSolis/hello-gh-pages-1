@@ -157,8 +157,8 @@ Elegimos publicar desde la rama `master`.
 
 ![Captura 2](img/captura-2.png)
 
-Listo, el sitio está disponible en https://santiagotrini.github.io/hello-gh-pages.
+Listo, el sitio está disponible en https://santiagotrini.github.io/hello-gh-pages. A veces no funciona a la primera, la verdad no sé por qué, pero siempre que tengan el `<!DOCTYPE html>` en la primera línea de su `index.html` (que se tiene que llamar sí o sí `index.html`) debería andar todo. Si a la primera no anda agreguen un espacio en algún lado donde no haga daño y vuelvan a commitear y pushear, eso me funcionó a mí.
 
 ![Captura 3](img/captura-3.png)
 
-Cada vez que pusheamos código a nuestro repo los cambios se reflejan en el sitio.
+Cada vez que pusheamos código a nuestro repo los cambios se reflejan en el sitio, felicitaciones, ya se pueden armar un blog o página personal. Si se quedaron con ganas de más GitHub Pages está pensado para integrarse perfectamente con Jekyll, un generador de sitios estáticos. Más info en https://help.github.com/es/github/working-with-github-pages y en la web oficial de Jekyll https://jekyllrb.com/.
