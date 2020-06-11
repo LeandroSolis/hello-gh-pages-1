@@ -19,7 +19,7 @@ $ touch index.html
 
 ## Agregamos código a index.html
 
-Creamos la interfaz de usuario con el siguiente código en el `index.html`.
+Creamos la interfaz de usuario con el siguiente código en el `index.html`. HTML es el lenguaje que usamos para definir los elementos y estructura de una página web. Y por supuesto para escribir el texto que contienen esos elementos como párrafos (`p`) y encabezados (`h1`) entre muchos otros elementos disponibles.
 
 ```html
 <!DOCTYPE html>
@@ -57,7 +57,7 @@ $ mkdir js
 $ cd js
 $ touch script.js
 ```
-Agregamos el siguiente código.
+Agregamos el siguiente código. Esto es un ejemplo de _scripting_ del lado del cliente. O sea código de JavaScript que se ejecuta en el navegador. Podemos cambiar elementos de la página al clickear un botón y otras cosas similares.
 
 ```js
 // script.js
@@ -83,7 +83,7 @@ $ cd css
 $ touch styles.css
 ```
 
-En `style.css` copiamos el siguiente código o mejor aún, se inventan un estilo ustedes. No hay soluciones malas y buenas, sino bonitas y feas.
+En `style.css` copiamos el siguiente código o mejor aún, se inventan un estilo ustedes. No hay soluciones malas y buenas, sino bonitas y feas. CSS es el lenguaje que usa la web para definir los estilos de los elementos HTML que aparecen en una página web. Muy en resumen, se seleccionan los elementos con distintos selectores (`h1`, `p`) y se le aplican distintos estilos con pares de claves y valores como `color: white;`.
 
 ```css
 h1, p {
@@ -151,14 +151,12 @@ $ git push -u origin master
 
 Para hacer el deploy nos vamos a nuestro repo en GitHub a la pestaña de configuración (_settings_) y buscamos GitHub Pages.
 
-![Captura 1](img/captura-1.png)
+![Captura 1](img/settings.png)
 
 Elegimos publicar desde la rama `master`.
 
-![Captura 2](img/captura-2.png)
+![Captura 2](img/master.png)
 
 Listo, el sitio está disponible en https://santiagotrini.github.io/hello-gh-pages. A veces no funciona a la primera, la verdad no sé por qué, pero siempre que tengan el `<!DOCTYPE html>` en la primera línea de su `index.html` (que se tiene que llamar sí o sí `index.html`) debería andar todo. Si a la primera no anda agreguen un espacio en algún lado donde no haga daño y vuelvan a commitear y pushear, eso me funcionó a mí.
-
-![Captura 3](img/captura-3.png)
 
 Cada vez que pusheamos código a nuestro repo los cambios se reflejan en el sitio, felicitaciones, ya se pueden armar un blog o página personal. Si se quedaron con ganas de más GitHub Pages está pensado para integrarse perfectamente con Jekyll, un generador de sitios estáticos. Más info en https://help.github.com/es/github/working-with-github-pages y en la web oficial de Jekyll https://jekyllrb.com/.
